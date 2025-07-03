@@ -8,11 +8,25 @@
 # testing
 /coverage
 
-# production
-/build
+
+
+# Ignore any directory starting with "build" or "statingbuild"
+build*/
+statingbuild*/
+
+/buildNew
+/stagingbuild
+/stagingbuild1
+/stagingbuild2
+/stagingbuild3
+
+# Or more generally, ignore any top-level folders ending with "build"
+*/build*/
+
 
 # misc
 .DS_Store
+.env
 .env.local
 .env.development.local
 .env.test.local

@@ -1,0 +1,13 @@
+.data-table-container {
+  max-height: 100vh;
+  margin: 10px 0px 10px 10px;
+  overflow: auto;
+  border-radius: 10px;
+}
+
+.data-graph-container {
+  max-width: 100%;
+  margin: 10px 0px 10px 10px;
+  overflow: auto;
+  border-radius: 10px;
+}

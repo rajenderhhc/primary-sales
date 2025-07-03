@@ -1,0 +1,128 @@
+.MuiChartsLegend-series > text {
+  font-size: 0.8rem !important;
+}
+
+.graph-loader {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+}
+
+.graph-title {
+  align-self: center;
+  margin-bottom: 12px;
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 7px;
+}
+
+.graph-main-container {
+  display: flex;
+  flex-direction: column;
+  padding: 7px;
+  margin: 10px;
+  position: relative;
+  background-color: rgb(174, 212, 255, 0.3);
+  box-shadow: 0px 0px 3px 3px rgb(174, 212, 255, 0.3);
+  border-radius: 15px;
+}
+
+.header-navigator {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-family: 'Roboto', 'Helvetica Neue';
+  margin-right: 15px;
+}
+.activetab {
+  color: #0d6efd;
+  text-decoration: underline;
+}
+
+.nav_container {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  background-color: rgb(13, 202, 240, 0.3);
+}
+
+.container-input > .date-picker {
+  max-width: 100px !important;
+  max-height: 70px !important;
+  overflow: unset !important;
+}
+
+.container-input > .css-10e3ze8-MuiStack-root {
+  overflow: unset !important;
+  max-height: 70px !important;
+  padding-top: 0px !important;
+}
+
+.container-input > .css-o9k5xi-MuiInputBase-root-MuiOutlinedInput-root {
+  height: 46px;
+}
+
+.profile-container {
+  width: 100%;
+}
+
+.log-table-container {
+  height: 66vh;
+  overflow-x: auto;
+  border: 1px solid #0fc3fa;
+  border-radius: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar-expand {
+    width: 430px;
+  }
+  .profile-container {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .nav_container {
+    width: 100%;
+  }
+  .header-navigator {
+    margin: 8px;
+  }
+}
+
+.profile-details-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.page-link {
+  cursor: pointer;
+}
+
+.multiSelectContainer {
+  background-color: #fff;
+}
+.searchWrapper {
+  padding: 0px 5px 0px 5px;
+  min-height: 37px;
+}
+
+.optionListContainer {
+  z-index: 999 !important;
+}
+
+.search-input {
+  border: none;
+  outline: none;
+  min-width: 200px;
+}
+
+.reports-btn {
+  outline: none;
+  border: none;
+  background: transparent;
+}

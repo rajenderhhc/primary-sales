@@ -8,9 +8,13 @@
 # testing
 /coverage
 
-# production
-/build*
-/statingbuild*
+# Ignore any directory starting with "build" or "statingbuild"
+build*/
+statingbuild*/
+
+# Or more generally, ignore any top-level folders ending with "build"
+*/build*/
+
 
 # misc
 .DS_Store

@@ -8,9 +8,17 @@
 # testing
 /coverage
 
+
+
 # Ignore any directory starting with "build" or "statingbuild"
 build*/
 statingbuild*/
+
+/buildNew
+/stagingbuild
+/stagingbuild1
+/stagingbuild2
+/stagingbuild3
 
 # Or more generally, ignore any top-level folders ending with "build"
 */build*/
